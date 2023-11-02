@@ -150,3 +150,40 @@ blockquote {
     padding-left: 1em;
     border-left: 0.5em solid #f5f5f5;
 }
+
+/*navbar style*/
+
+.nav li:first-child{
+    background-color: #f0f;
+}
+
+.nav li:last-child{
+    background-color: #ffff00;
+}
+
+.nav li:hover{
+    background-color: #ffffff;
+}
+
+/* image */
+
+.main p> img:last-child{
+    height: 250px;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main p>img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+
+
+
+
