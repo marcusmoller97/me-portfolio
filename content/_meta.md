@@ -4,5 +4,8 @@ Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/marcusmoller97/me-portfolio
-      icon: github
+      icon: fab fa-github
+    - title: Link till sidans youtubekont
+      url: https://www.youtube.com/@DbwebbSe
+      icon: fab fa-youtube
 ---

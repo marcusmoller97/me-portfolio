@@ -1,0 +1,30 @@
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #222;
+
+    height: 100px;
+    background-color: #0ff;
+}
+
+.footer>div:first-of-type{
+    margin: auto 5px;
+}
+
+.footer a {
+    color: #222;
+}
+
+
+.footer .social {
+    font-size: 2rem;
+}
+
+.social{
+    margin: auto 10px;
+}
+
+.header .footer {
+    flex: 0 0 auto;
+}

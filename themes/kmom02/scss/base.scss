@@ -34,6 +34,8 @@ body {
 
 .main {
     flex: 1 0 auto;
+    width: 100%;
+    max-width: 800px;
 }
 
 .header, .footer {
@@ -44,7 +46,7 @@ body {
 @media (max-width: 767px) {
     .main {
         max-width: 767px;
-        width: auto;
+        /* width: auto; */
     }
 
     .main h1, h2, h3, h4, h5, h6, p {
@@ -167,4 +169,8 @@ blockquote {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.main {
+    background-color: #00F0FF;
 }
